@@ -41,7 +41,7 @@ jobs:
         run: mvn -B package --file demo/pom.xml
         
       - name: Step 4 - List the current dir
-        run: ls -a
+        run: dir
         
         
       
