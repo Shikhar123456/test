@@ -38,7 +38,7 @@ jobs:
           #cache: maven
 
       - name: Step 3 - Build Maven Project
-        run: mvn -B package --file pom.xml
+        run: mvn -B package --file demo/pom.xml
         
       - name: Step 4 - List the current dir
         run: ls -a
