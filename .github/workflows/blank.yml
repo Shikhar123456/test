@@ -49,7 +49,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Step 5 - Target folder
         run: |
-          cd target
+          cd  demo\target
           dir
       
       
